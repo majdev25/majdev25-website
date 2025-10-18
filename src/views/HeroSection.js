@@ -7,8 +7,11 @@ import {
   FaCodeBranch,
 } from "react-icons/fa";
 import profileImg from "../assets/profile-small.png";
+import { useTranslation } from "react-i18next";
 
 function HeroSection() {
+  const { t } = useTranslation();
+
   return (
     <section
       id="home"
@@ -24,7 +27,9 @@ function HeroSection() {
         />
       </div>
 
-      <h1 className="text-sm font-regular mb-4 z-10">Hi, I'm Maj.</h1>
+      <h1 className="text-sm font-regular mb-4 z-10">
+        {t("homepage.hero.greeting")}
+      </h1>
       <h1 className="relative inline-block">
         <div className="absolute -top-10 -left-[15%] transform -rotate-12">
           <FaCode className="text-coral text-6xl opacity-0 drop-shadow-[0_0_15px_coral] animate-slide-in [animation-delay:0.8s] hidden sm:block" />
@@ -33,11 +38,11 @@ function HeroSection() {
           <FaCodeBranch className="text-orangeRed text-6xl opacity-0 drop-shadow-[0_0_15px_orangeRed] animate-slide-in [animation-delay:1s] hidden sm:block" />
         </div>
         <div className="text-5xl md:text-6xl font-bold mb-4 z-10 animate-slide-in">
-          Full stack developer
+          {t("homepage.hero.title")}
         </div>
       </h1>
       <p className="text-lg md:text-2xl mb-6 max-w-xl z-10 animate-slide-in opacity-0 [animation-delay:0.1s]">
-        Building the web of tomorrow—one modern solution at a time.
+        {t("homepage.hero.subtitle")}
       </p>
       <div className="flex gap-4 mt-6 animate-slide-in opacity-0 [animation-delay:0.5s]">
         <a href="https://github.com/majdev25" target="_blank" rel="noreferrer">

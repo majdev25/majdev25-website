@@ -1,18 +1,19 @@
 import "./style.css";
+import Navigator from "./Navigator.js";
 import HeroSection from "./HeroSection.js";
+import PortfolioSection from "./PortfolioSection.js";
+import StackSection from "./StackSection.js";
 
 function App() {
   return (
     <div className="">
-      {/* Navigation bar fixed at the top */}
+      <Navigator></Navigator>
 
       {/* Page Sections */}
       <main className="">
         <HeroSection></HeroSection>
-        <section
-          id="home"
-          className="min-h-screen flex items-center justify-center"
-        ></section>
+        <PortfolioSection></PortfolioSection>
+        <StackSection></StackSection>
 
         <section
           id="about"
