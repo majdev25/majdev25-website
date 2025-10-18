@@ -1,8 +1,9 @@
 import "./style.css";
 import Navigator from "./Navigator.js";
-import HeroSection from "./HeroSection.js";
-import PortfolioSection from "./PortfolioSection.js";
-import StackSection from "./StackSection.js";
+import HeroSection from "./Sections/HeroSection.js";
+import PortfolioSection from "./Sections/PortfolioSection.js";
+import StackSection from "./Sections/StackSection.js";
+import ExperienceSection from "./Sections/ExperienceSection.js";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <HeroSection></HeroSection>
         <PortfolioSection></PortfolioSection>
         <StackSection></StackSection>
+        <ExperienceSection></ExperienceSection>
 
         <section
           id="about"

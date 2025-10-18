@@ -33,6 +33,15 @@ function PortfolioSection() {
       id="portfolio"
       className="relative bg-black text-white pb-20 md:ps-12 lg:ps-20 px-6 md:px-0 z-0 w-full"
     >
+      {/* Coral blob */}
+      <div className="absolute top-1/2 left-1/2 w-[80rem] h-[30rem] bg-coral/40 rounded-full blur-[120px] -translate-x-[50%] -translate-y-[30%] animate-pulse-slow" />
+
+      {/* Orange-red blob */}
+      <div className="absolute top-1/2 left-1/2 w-[50rem] h-[50rem] bg-orangeRed/30 rounded-full blur-[130px] -translate-x-[50%] -translate-y-[50%] animate-pulse-reverse" />
+
+      {/* Soft purple glow for contrast */}
+      <div className="absolute top-1/2 left-1/2 w-[40rem] h-[40rem] bg-purple-500/20 rounded-full blur-[150px] -translate-x-[50%] -translate-y-[70%] animate-pulse-slow [animation-delay:1s]" />
+
       <div className="w-full flex flex-col -mt-32 mx-0 md:mx-auto">
         <h2 className="text-4xl font-bold z-10 animate-slide-in">
           {t("homepage.portfolio.title")}
@@ -45,13 +54,13 @@ function PortfolioSection() {
           {projects.map((project, index) => (
             <div
               key={index}
-              className="flex-1 min-w-[100px] md:min-w-[600px] bg-neutral-900/60 p-6 rounded-3xl bg-neutral-900/60 backdrop-blur-md rounded-2xl p-6 text-left shadow-lg  transition-all hover:-translate-y-2 animate-slide-in opacity-0"
+              className="min-w-[100px] md:min-w-[600px] bg-white/10 p-6 rounded-3xl border border-white/20 backdrop-blur-[100px] backdrop-blur-md rounded-2xl p-6 text-left flex-1"
               style={{ animationDelay: `${index * 0.2}s` }}
             >
-              <h3 className="text-2xl font-semibold mb-2 text-coral">
+              <h3 className="text-2xl font-semibold mb-2 text-white">
                 {project.title}
               </h3>
-              <p className="text-gray-300 mb-4">
+              <p className="text-white mb-4">
                 <Trans i18nKey={project.short_description}></Trans>
               </p>
 

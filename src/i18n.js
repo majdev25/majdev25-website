@@ -35,6 +35,9 @@ i18n.use(initReactI18next).init({
             subtitle2: "Backend",
             subtitle3: "Tools & Others",
           },
+          experience: {
+            title: "Experience",
+          },
         },
       },
     },
@@ -68,6 +71,9 @@ i18n.use(initReactI18next).init({
             subtitle1: "Frontend",
             subtitle2: "Backend",
             subtitle3: "Herramientas y Otros",
+          },
+          experience: {
+            title: "Experiencia",
           },
         },
       },

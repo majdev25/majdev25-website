@@ -1,4 +1,3 @@
-import "./style.css";
 import {
   FaGithub,
   FaLinkedin,
@@ -6,7 +5,7 @@ import {
   FaCode,
   FaCodeBranch,
 } from "react-icons/fa";
-import profileImg from "../assets/profile-small.png";
+import profileImg from "../../assets/profile-small.png";
 import { useTranslation } from "react-i18next";
 
 function HeroSection() {
