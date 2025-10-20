@@ -19,13 +19,23 @@ export default function Navigator() {
           </a>
         </li>
         <li>
-          <a href="#about" className="hover:text-coral transition">
-            {t("navigator.about")}
+          <a href="#home" className="hover:text-coral transition">
+            {t("navigator.portfolio")}
           </a>
         </li>
         <li>
-          <a href="#projects" className="hover:text-coral transition">
-            {t("navigator.projects")}
+          <a href="#home" className="hover:text-coral transition">
+            {t("navigator.stack")}
+          </a>
+        </li>
+        <li>
+          <a href="#home" className="hover:text-coral transition">
+            {t("navigator.experience")}
+          </a>
+        </li>
+        <li>
+          <a href="#home" className="hover:text-coral transition">
+            {t("navigator.education")}
           </a>
         </li>
       </ul>

@@ -1,5 +1,5 @@
 import { FiExternalLink } from "react-icons/fi";
-import { useTranslation, Trans } from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 function PortfolioSection() {
   const { t } = useTranslation();
@@ -7,7 +7,7 @@ function PortfolioSection() {
   return (
     <section
       id="portfolio"
-      className="relative bg-black text-white py-20 px-6 md:px-20 z-0 w-full overflow-hidden"
+      className="relative bg-black text-white py-20 md:ps-12 lg:ps-20 px-6 md:px-20 z-0 w-full overflow-hidden"
     >
       <div className="absolute top-[50px] left-0 w-[50%] h-[100%] bg-coral/60 filter blur-3xl -translate-x-1/2 -translate-y-1/2 z-2 animate-pulse-reverse"></div>
       <div className="absolute top-[80px] left-0 w-[50%] h-[100%] bg-orangeRed/30 filter blur-3xl -translate-x-1/2 -translate-y-1/2 rotate-[10rad] z-1 animate-pulse-slow [animation-delay:0.3s]"></div>
@@ -35,21 +35,13 @@ function PortfolioSection() {
             <div className="absolute top-[20px] right-[20px]">
               <FiExternalLink />
             </div>
-            <div className="text-sm">2019-2026</div>
+            <div className="text-sm">{t("homepage.experience.sbms.year")}</div>
             <div>
               <h2 className="text-2xl mb-2 font-bold">
-                General Hospital Murska Sobota
+                {t("homepage.experience.sbms.title")}
               </h2>
             </div>
-            <p>
-              I solely developed and managed an internal web application
-              (intranet) serving over 1000 users, enabling seamless
-              collaboration, information sharing, and internal order management.
-              Additionally, I created several smaller applications to support
-              hospital workflows, including an ordering system and a COVID-19
-              tracking app. I was also responsible for maintaining the server,
-              performing backups, and managing the database.
-            </p>
+            <p>{t("homepage.experience.sbms.text")}</p>
           </div>
           <div
             onClick={() =>
@@ -64,15 +56,13 @@ function PortfolioSection() {
             <div className="absolute top-[20px] right-[20px]">
               <FiExternalLink />
             </div>
-            <div className="text-sm">2023-2026</div>
-            <h2 className="text-2xl mb-2 font-bold">Pronet Kranj</h2>
-            <p>
-              Developed a modern web application that integrates with an older
-              pharmacy management system to provide a better user interface for
-              customers. Worked within a large team to ensure the system was
-              completely reliable, as it was critical for maintaining accurate
-              medication inventory for hospitals across Slovenia.
-            </p>
+            <div className="text-sm">
+              {t("homepage.experience.pronet.year")}
+            </div>
+            <h2 className="text-2xl mb-2 font-bold">
+              {t("homepage.experience.pronet.title")}
+            </h2>
+            <p>{t("homepage.experience.pronet.text")}</p>
           </div>
         </div>
       </div>

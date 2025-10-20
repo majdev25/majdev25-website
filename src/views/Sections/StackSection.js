@@ -25,6 +25,8 @@ import {
   SiUnrealengine,
   SiUnity,
   SiBlender,
+  SiSwagger,
+  SiDigitalocean,
 } from "react-icons/si";
 import { useTranslation } from "react-i18next";
 
@@ -54,11 +56,13 @@ const other = [
   { name: "GitHub", icon: <SiGithub /> },
   { name: "Docker", icon: <FaDocker /> },
   { name: "NPM", icon: <SiNpm /> },
+  { name: "Swagger", icon: <SiSwagger /> },
   { name: "Linux", icon: <FaLinux /> },
   { name: "Electron", icon: <SiElectron /> },
   { name: "Unreal Engine", icon: <SiUnrealengine /> },
   { name: "Unity", icon: <SiUnity /> },
   { name: "Blender", icon: <SiBlender /> },
+  { name: "Digital Ocean", icon: <SiDigitalocean /> },
   { name: "VyOS", icon: null },
 ];
 

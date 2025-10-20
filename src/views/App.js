@@ -4,10 +4,11 @@ import HeroSection from "./Sections/HeroSection.js";
 import PortfolioSection from "./Sections/PortfolioSection.js";
 import StackSection from "./Sections/StackSection.js";
 import ExperienceSection from "./Sections/ExperienceSection.js";
+import EducationSection from "./Sections/EducationSection.js";
 
 function App() {
   return (
-    <div className="">
+    <div className="overflow-x-hidden">
       <Navigator></Navigator>
 
       {/* Page Sections */}
@@ -16,6 +17,7 @@ function App() {
         <PortfolioSection></PortfolioSection>
         <StackSection></StackSection>
         <ExperienceSection></ExperienceSection>
+        <EducationSection></EducationSection>
 
         <section
           id="about"

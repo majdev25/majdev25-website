@@ -31,7 +31,7 @@ function PortfolioSection() {
   return (
     <section
       id="portfolio"
-      className="relative bg-black text-white pb-20 md:ps-12 lg:ps-20 px-6 md:px-0 z-0 w-full"
+      className="relative bg-black text-white pb-20 md:ps-12 lg:ps-20 px-6 md:px-20 z-0 w-full"
     >
       {/* Coral blob */}
       <div className="absolute top-1/2 left-1/2 w-[80rem] h-[30rem] bg-coral/40 rounded-full blur-[120px] -translate-x-[50%] -translate-y-[30%] animate-pulse-slow" />
@@ -50,7 +50,7 @@ function PortfolioSection() {
           {t("homepage.portfolio.featured")}
         </h2>
 
-        <div className="flex flex-col gap-8 z-10 lg:flex-row overflow-x-auto">
+        <div className="flex flex-col gap-8 z-10 lg:flex-row overflow-x-scroll overflow-show scrollbar-thin scrollbar-thumb-gray-500 white-scrollbar pb-2">
           {projects.map((project, index) => (
             <div
               key={index}
