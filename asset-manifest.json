@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/majdev25-website/static/css/main.c9b2327e.css",
+    "main.js": "/majdev25-website/static/js/main.cb4f7a61.js",
+    "static/js/453.7cf3c761.chunk.js": "/majdev25-website/static/js/453.7cf3c761.chunk.js",
+    "static/media/profile-small.png": "/majdev25-website/static/media/profile-small.3909d32c3f1734c3f3fb.png",
+    "static/media/musical.png": "/majdev25-website/static/media/musical.d8e1693164285224db21.png",
+    "static/media/UL_logo.svg": "/majdev25-website/static/media/UL_logo.b72286eb9d5b1fb7d5db7c73cf80e346.svg",
+    "index.html": "/majdev25-website/index.html",
+    "main.c9b2327e.css.map": "/majdev25-website/static/css/main.c9b2327e.css.map",
+    "main.cb4f7a61.js.map": "/majdev25-website/static/js/main.cb4f7a61.js.map",
+    "453.7cf3c761.chunk.js.map": "/majdev25-website/static/js/453.7cf3c761.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9b2327e.css",
+    "static/js/main.cb4f7a61.js"
+  ]
+}
