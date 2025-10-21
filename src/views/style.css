@@ -13,14 +13,18 @@ html {
 }
 
 .white-scrollbar::-webkit-scrollbar-thumb {
-  background: #ffffff;
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 9999px;
   cursor: pointer;
-  transition: background 0.2s ease;
 }
 
 .white-scrollbar::-webkit-scrollbar-thumb:hover {
-  background: #e5e5e5; /* lighter gray on hover, change to any color you like */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* lighter gray on hover, change to any color you like */
 }
 
 .white-scrollbar::-webkit-scrollbar-track {

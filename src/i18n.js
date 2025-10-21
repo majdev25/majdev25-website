@@ -34,6 +34,7 @@ i18n.use(initReactI18next).init({
           stack: {
             title: "Stack",
             par1: "Technologies and tools I've used throughout my career and studies.",
+            note: "Note: I haven't listed every programming language I know, as my computer science education allows me to quickly understand and adapt to new languages and technologies.",
             subtitle1: "Frontend",
             subtitle2: "Backend",
             subtitle3: "Tools & Others",
@@ -96,6 +97,7 @@ i18n.use(initReactI18next).init({
           stack: {
             title: "Stack Tecnológico",
             par1: "Tecnologías y herramientas que he utilizado a lo largo de mi carrera y estudios.",
+            note: "Nota: No he listado todos los lenguajes de programación que conozco, ya que mi formación en informática me permite comprender y adaptarme rápidamente a nuevos lenguajes y tecnologías.",
             subtitle1: "Frontend",
             subtitle2: "Backend",
             subtitle3: "Herramientas y Otros",

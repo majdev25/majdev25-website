@@ -35,7 +35,11 @@ function PortfolioSection() {
             <FiExternalLink />
           </div>
           <div>
-            <img src={ulLogo} className="h-[65px] -ml-[20px]"></img>
+            <img
+              src={ulLogo}
+              alt="Univerza v Ljubljani logo"
+              className="h-[65px] -ml-[20px]"
+            ></img>
           </div>
           <h2 className="text-xl mb-2 font-bold">
             {t("homepage.education.degree")}

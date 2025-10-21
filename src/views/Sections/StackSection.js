@@ -76,7 +76,8 @@ function StackSection() {
       <h2 className="text-4xl font-bold z-10 animate-slide-in">
         {t("homepage.stack.title")}
       </h2>
-      <p className="mb-10 text-lg">{t("homepage.stack.par1")}</p>
+      <p className="text-lg">{t("homepage.stack.par1")}</p>
+      <p className="mb-10 text-sm text-gray-400">{t("homepage.stack.note")}</p>
       <div className="w-full flex flex-col md:flex-row gap-4 md:gap-8">
         <div className="flex-1">
           <h3 className="text-3xl mb-4">{t("homepage.stack.subtitle1")}</h3>

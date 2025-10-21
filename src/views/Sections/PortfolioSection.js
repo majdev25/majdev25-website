@@ -13,14 +13,21 @@ function PortfolioSection() {
       tags: ["Vue", "Node.js", "PostgreSQL", "SCSS"],
     },
     {
-      title: "Space Service Hub",
+      title: "Project 2",
       description: t("homepage.portfolio.spaceHubDesc"),
       github: "https://github.com/majdev25/space-service-hub",
       demo: "",
       tags: ["Unreal Engine 5", "C++", "Blueprints"],
     },
     {
-      title: "Portfolio Website",
+      title: "Project 3",
+      description: t("homepage.portfolio.portfolioDesc"),
+      github: "https://github.com/majdev25/portfolio",
+      demo: "",
+      tags: ["React", "Tailwind CSS", "i18next"],
+    },
+    {
+      title: "Project 4",
       description: t("homepage.portfolio.portfolioDesc"),
       github: "https://github.com/majdev25/portfolio",
       demo: "",
