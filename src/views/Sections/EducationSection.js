@@ -7,7 +7,7 @@ function PortfolioSection() {
 
   return (
     <section
-      id="portfolio"
+      id="education"
       className="relative bg-black text-white py-20 md:ps-12 lg:ps-20 px-6 md:px-20 z-0 w-full overflow-hidden"
     >
       <div className="absolute top-0 left-0 w-[60%] h-[100%] bg-coral/70 filter blur-3xl -translate-x-1/3 z-2 animate-pulse-reverse [animation-delay:0.3s]"></div>

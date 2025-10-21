@@ -6,7 +6,7 @@ function PortfolioSection() {
 
   return (
     <section
-      id="portfolio"
+      id="experience"
       className="relative bg-black text-white py-20 md:ps-12 lg:ps-20 px-6 md:px-20 z-0 w-full overflow-hidden"
     >
       <div className="absolute top-[50px] left-0 w-[50%] h-[100%] bg-coral/60 filter blur-3xl -translate-x-1/2 -translate-y-1/2 z-2 animate-pulse-reverse"></div>
@@ -30,7 +30,7 @@ function PortfolioSection() {
                 "noopener,noreferrer"
               )
             }
-            className="relative flex-1 min-w-[100px] md:min-w-[600px] bg-white/10 hover:bg-white/20 p-6 rounded-3xl border border-white/20 backdrop-blur-[100px] backdrop-blur-md rounded-2xl p-6 text-left flex-1 cursor-pointer transition"
+            className="relative flex-1 min-w-[100px] md:min-w-[600px] bg-white/10 hover:bg-white/20 p-6 -3xl border border-white/20 backdrop-blur-[100px] backdrop-blur-md rounded-2xl p-6 text-left flex-1 cursor-pointer transition"
           >
             <div className="absolute top-[20px] right-[20px]">
               <FiExternalLink />

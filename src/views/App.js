@@ -5,6 +5,7 @@ import PortfolioSection from "./Sections/PortfolioSection.js";
 import StackSection from "./Sections/StackSection.js";
 import ExperienceSection from "./Sections/ExperienceSection.js";
 import EducationSection from "./Sections/EducationSection.js";
+import AboutMeSection from "./Sections/AboutMeSection.js";
 
 function App() {
   return (
@@ -18,21 +19,7 @@ function App() {
         <StackSection></StackSection>
         <ExperienceSection></ExperienceSection>
         <EducationSection></EducationSection>
-
-        <section
-          id="about"
-          className="min-h-screen flex items-center justify-center bg-white"
-        ></section>
-
-        <section
-          id="projects"
-          className="min-h-screen flex items-center justify-center bg-gray-100"
-        ></section>
-
-        <section
-          id="contact"
-          className="min-h-screen flex items-center justify-center bg-white"
-        ></section>
+        <AboutMeSection></AboutMeSection>
       </main>
 
       {/* Footer */}

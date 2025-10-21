@@ -12,6 +12,7 @@ i18n.use(initReactI18next).init({
           stack: "Stack",
           experience: "Experience",
           education: "Education",
+          aboutMe: "About me",
         },
         homepage: {
           hero: {
@@ -57,6 +58,11 @@ i18n.use(initReactI18next).init({
             relevantCourses:
               " Relevant Courses: Web Programming, Database Systems, Computer Networks, Software Engineering, Artificial Intelligence, Machine Learning",
           },
+          aboutMe: {
+            title: "About me",
+            text: "I'm from Slovenia and completed General Secondary School with Academic Focus, where I cultivated a lifelong passion for mathematics. I also attended music school, mastering the violin and piano, later composing and producing my own musical, and eventually dabbling in electronic music for experimental fun. Beyond my artistic pursuits, I devote time to bodybuilding in the gym, a discipline that has instilled resilience and perseverance — virtues I channel into both my creative endeavors and software development projects.",
+            photoText: "Team from the musical. (2019)",
+          },
         },
       },
     },
@@ -68,6 +74,7 @@ i18n.use(initReactI18next).init({
           stack: "Stack",
           experience: "Experiencia",
           education: "Educación",
+          aboutMe: "Sobre mí",
         },
         homepage: {
           hero: {
@@ -112,6 +119,11 @@ i18n.use(initReactI18next).init({
               "Licenciatura en Ciencias de la Computación e Informática (Programa Universitario)",
             relevantCourses:
               "Cursos Relevantes: Programación Web, Sistemas de Bases de Datos, Redes de Computadoras, Ingeniería de Software, Inteligencia Artificial, Aprendizaje Automático",
+          },
+          aboutMe: {
+            title: "Sobre mí",
+            text: "Soy de Eslovenia y completé la Escuela Secundaria General con Enfoque Académico, donde cultivé una pasión duradera por las matemáticas. También asistí a la escuela de música, dominando el violín y el piano, posteriormente componiendo y produciendo mi propio musical, y eventualmente experimentando con la música electrónica por diversión creativa. Más allá de mis actividades artísticas, dedico tiempo al culturismo en el gimnasio, una disciplina que me ha inculcado resiliencia y perseverancia — virtudes que aplico tanto en mis proyectos creativos como en el desarrollo de software.",
+            photoText: "Equipo del musical. (2019)",
           },
         },
       },

@@ -69,7 +69,10 @@ const other = [
 function StackSection() {
   const { t } = useTranslation();
   return (
-    <div className="relative bg-white text-black py-20 px-6 md:px-20">
+    <section
+      id="stack"
+      className="relative bg-black text-white py-20 px-6 md:px-20"
+    >
       <h2 className="text-4xl font-bold z-10 animate-slide-in">
         {t("homepage.stack.title")}
       </h2>
@@ -81,7 +84,7 @@ function StackSection() {
             {frontend.map((tech, index) => (
               <span
                 key={index}
-                className="bg-coral/20 text-orangeRed px-4 py-2 rounded-md text-sm text-xl flex items-center gap-1"
+                className="bg-coral/20 text-coral px-4 py-2 rounded-md text-sm text-xl flex items-center gap-1"
               >
                 {tech.icon}
                 {tech.name}
@@ -95,7 +98,7 @@ function StackSection() {
             {backend.map((tech, index) => (
               <span
                 key={index}
-                className="bg-coral/20 text-orangeRed px-4 py-2 rounded-md text-sm text-xl flex items-center gap-1"
+                className="bg-coral/20 text-coral px-4 py-2 rounded-md text-sm text-xl flex items-center gap-1"
               >
                 {tech.icon}
                 {tech.name}
@@ -109,7 +112,7 @@ function StackSection() {
             {other.map((tech, index) => (
               <span
                 key={index}
-                className="bg-coral/20 text-orangeRed px-4 py-2 rounded-md text-sm text-xl flex items-center gap-1"
+                className="bg-coral/20 text-coral px-4 py-2 rounded-md text-sm text-xl flex items-center gap-1"
               >
                 {tech.icon}
                 {tech.name}
@@ -118,7 +121,7 @@ function StackSection() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 
