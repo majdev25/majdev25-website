@@ -44,6 +44,7 @@ function PortfolioSection() {
           <h2 className="text-xl mb-2 font-bold">
             {t("homepage.education.degree")}
           </h2>
+          <p className="text-i font-bold">{t("homepage.education.note")}</p>
           <p className="text-i">{t("homepage.education.relevantCourses")}</p>
         </div>
       </div>

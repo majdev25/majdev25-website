@@ -43,8 +43,13 @@ function HeroSection() {
       <p className="text-lg md:text-2xl mb-6 max-w-xl z-10 animate-slide-in opacity-0 [animation-delay:0.1s]">
         {t("homepage.hero.subtitle")}
       </p>
-      <div className="flex gap-4 mt-6 animate-slide-in opacity-0 [animation-delay:0.5s]">
-        <a href="https://github.com/majdev25" target="_blank" rel="noreferrer">
+      <div className="flex gap-4 mt-6 animate-slide-in opacity-0 [animation-delay:0.5s] z-10 relative">
+        <a
+          href="https://github.com/majdev25"
+          target="_blank"
+          rel="noreferrer"
+          className="cursor-pointer z-10"
+        >
           <FaGithub className="text-coral hover:text-orangeRed text-2xl transition" />
         </a>
         <a
@@ -54,7 +59,7 @@ function HeroSection() {
         >
           <FaLinkedin className="text-coral hover:text-orangeRed text-2xl transition" />
         </a>
-        <a href="mailto:you@example.com">
+        <a href="mailto:majandmaj@gmail.com">
           <FaEnvelope className="text-coral hover:text-orangeRed text-2xl transition" />
         </a>
       </div>

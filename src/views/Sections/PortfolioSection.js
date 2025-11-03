@@ -6,32 +6,23 @@ function PortfolioSection() {
 
   const projects = [
     {
-      title: "Hospital Intranet",
+      title: t("homepage.portfolio.intranet.title"),
       description: t("homepage.portfolio.intranet.desc"),
       short_description: t("homepage.portfolio.intranet.short_desc"),
-      github: "https://github.com/majdev25/transFile",
+      github: null,
       tags: ["Vue", "Node.js", "PostgreSQL", "SCSS"],
     },
     {
-      title: "Project 2",
-      description: t("homepage.portfolio.spaceHubDesc"),
-      github: "https://github.com/majdev25/space-service-hub",
-      demo: "",
-      tags: ["Unreal Engine 5", "C++", "Blueprints"],
+      title: t("homepage.portfolio.orfa.title"),
+      short_description: t("homepage.portfolio.orfa.short_desc"),
+      github: null,
+      tags: ["Vue", "Node.js", "ORACLE DB", "Docker"],
     },
     {
-      title: "Project 3",
-      description: t("homepage.portfolio.portfolioDesc"),
-      github: "https://github.com/majdev25/portfolio",
-      demo: "",
-      tags: ["React", "Tailwind CSS", "i18next"],
-    },
-    {
-      title: "Project 4",
-      description: t("homepage.portfolio.portfolioDesc"),
-      github: "https://github.com/majdev25/portfolio",
-      demo: "",
-      tags: ["React", "Tailwind CSS", "i18next"],
+      title: t("homepage.portfolio.homeflix.title"),
+      short_description: t("homepage.portfolio.homeflix.short_desc"),
+      github: "https://github.com/majdev25/Homeflix",
+      tags: ["React", "Tailwind", "Node.js", "TypeScript"],
     },
   ];
 
@@ -41,13 +32,13 @@ function PortfolioSection() {
       className="relative bg-black text-white pb-20 md:ps-12 lg:ps-20 px-6 md:px-20 z-0 w-full"
     >
       {/* Coral blob */}
-      <div className="absolute top-1/2 left-1/2 w-[80rem] h-[30rem] bg-coral/40 rounded-full blur-[120px] -translate-x-[50%] -translate-y-[30%] animate-pulse-slow" />
+      <div className="absolute top-1/2 left-1/2 w-[80rem] h-[30rem] bg-coral/40 rounded-full blur-[120px] -translate-x-[50%] -translate-y-[30%] animate-pulse-slo z-0" />
 
       {/* Orange-red blob */}
-      <div className="absolute top-1/2 left-1/2 w-[50rem] h-[50rem] bg-orangeRed/30 rounded-full blur-[130px] -translate-x-[50%] -translate-y-[50%] animate-pulse-reverse" />
+      <div className="absolute top-1/2 left-1/2 w-[50rem] h-[50rem] bg-orangeRed/30 rounded-full blur-[130px] -translate-x-[50%] -translate-y-[50%] animate-pulse-reverse z-0" />
 
       {/* Soft purple glow for contrast */}
-      <div className="absolute top-1/2 left-1/2 w-[40rem] h-[40rem] bg-purple-500/20 rounded-full blur-[150px] -translate-x-[50%] -translate-y-[70%] animate-pulse-slow [animation-delay:1s]" />
+      <div className="absolute top-1/2 left-1/2 w-[40rem] h-[40rem] bg-purple-500/20 rounded-full blur-[150px] -translate-x-[50%] -translate-y-[70%] animate-pulse-slow [animation-delay:1s] z-0" />
 
       <div className="w-full flex flex-col -mt-32 mx-0 md:mx-auto">
         <h2 className="text-4xl font-bold z-10 animate-slide-in">

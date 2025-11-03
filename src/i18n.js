@@ -26,9 +26,20 @@ i18n.use(initReactI18next).init({
             title: "Portfolio",
             featured: "FEATURED",
             intranet: {
+              title: "Hospital Intranet",
               short_desc:
                 "I developed an internal web app for over <strong>1,000 users</strong>, streamlining collaboration, information sharing, and internal ordering. It includes department-specific modules and an ISO-compliant document management system with detailed access controls for data security.",
               desc: "I solely developed and managed a comprehensive internal web application serving over <strong>1,000 users</strong>, making collaboration, information sharing, and internal ordering intuitive and easy for everyone. The system is complex, comprising multiple modules tailored to the workflows of each hospital department. These modules include a <strong>document management system</strong> aligned with ISO quality standards, with detailed access controls implemented to ensure data security and compliance.",
+            },
+            orfa: {
+              title: "Pharmacy Web App",
+              short_desc:
+                "I developed and managed a web application for pharmacies across Slovenia, enabling the release of drug orders within and outside hospital pharmacies. The app streamlines medication logistics, ensures logical drug storage, and optimizes overall pharmaceutical workflow.",
+            },
+            homeflix: {
+              title: "Homeflix",
+              short_desc:
+                "A personal project where I built a movie streaming web application HomeFlix is a modern, self-hosted streaming service. With no database setup required, AI-generated posters, and a sleek, modern interface.",
             },
           },
           stack: {
@@ -58,6 +69,7 @@ i18n.use(initReactI18next).init({
               "Bachelor of Computer and Information Science (University Programme)",
             relevantCourses:
               " Relevant Courses: Web Programming, Database Systems, Computer Networks, Software Engineering, Artificial Intelligence, Machine Learning",
+            note: "Expected to complete my degree in February 2025.",
           },
           aboutMe: {
             title: "About me",
@@ -89,9 +101,20 @@ i18n.use(initReactI18next).init({
             title: "Portafolio",
             featured: "DESTACADO",
             intranet: {
+              title: "Sistema de intranet del hospita",
               short_desc:
                 "Desarrollé una aplicación web interna para más de <strong>1,000 usuarios</strong>, optimizando la colaboración, el intercambio de información y los pedidos internos. Incluye módulos específicos para cada departamento y un sistema de gestión documental conforme a las normas ISO, con controles de acceso detallados para garantizar la seguridad de los datos.",
               desc: "Desarrollé y gestioné de forma independiente una completa aplicación web interna que da servicio a más de <strong>1,000 usuarios</strong>, haciendo que la colaboración, el intercambio de información y los pedidos internos sean intuitivos y eficientes. El sistema es complejo y está compuesto por múltiples módulos adaptados a los flujos de trabajo de cada departamento hospitalario. Estos módulos incluyen un <strong>sistema de gestión documental</strong> alineado con los estándares de calidad ISO, con controles de acceso detallados para garantizar la seguridad y el cumplimiento de los datos.",
+            },
+            orfa: {
+              title: "Aplicación Web para Farmacias",
+              short_desc:
+                "Desarrollé y gestioné una aplicación web para farmacias en toda Eslovenia, que permite la emisión de pedidos de medicamentos dentro y fuera de las farmacias hospitalarias. La aplicación optimiza la logística de medicamentos, asegura un almacenamiento lógico y mejora el flujo de trabajo farmacéutico en general.",
+            },
+            homeflix: {
+              title: "HomeFlix",
+              short_desc:
+                "Un proyecto personal en el que creé la aplicación web de streaming de películas HomeFlix, un servicio moderno y autoalojado. No requiere configuración de base de datos, incluye carteles generados por IA y una interfaz moderna y elegante.",
             },
           },
           stack: {
@@ -121,6 +144,7 @@ i18n.use(initReactI18next).init({
               "Licenciatura en Ciencias de la Computación e Informática (Programa Universitario)",
             relevantCourses:
               "Cursos Relevantes: Programación Web, Sistemas de Bases de Datos, Redes de Computadoras, Ingeniería de Software, Inteligencia Artificial, Aprendizaje Automático",
+            note: "Se espera que complete mi título en febrero de 2025.",
           },
           aboutMe: {
             title: "Sobre mí",
