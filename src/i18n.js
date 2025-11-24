@@ -17,7 +17,7 @@ i18n.use(initReactI18next).init({
         homepage: {
           hero: {
             greeting: "Hi, I'm Maj Andrejč.",
-            title: "Full Stack Developer",
+            title: "Software Engineer",
             subtitle:
               "I design and build complex systems that feel effortless for users.",
             viewWork: "View My Work",
@@ -65,11 +65,13 @@ i18n.use(initReactI18next).init({
           },
           education: {
             title: "Education",
+            faculty: "Faculty of Computer and Information Science",
             degree:
               "Bachelor of Computer and Information Science (University Programme)",
             relevantCourses:
               " Relevant Courses: Web Programming, Database Systems, Computer Networks, Software Engineering, Artificial Intelligence, Machine Learning",
             note: "Expected to complete my degree in February 2025.",
+            languages: "Languages",
           },
           aboutMe: {
             title: "About me",
@@ -92,7 +94,7 @@ i18n.use(initReactI18next).init({
         homepage: {
           hero: {
             greeting: "Hola, soy Maj Andrejč.",
-            title: "Desarrollador Full Stack",
+            title: "Ingeniero de Software",
             subtitle:
               "Creo y desarrollo sistemas complejos que funcionan de manera sencilla para el usuario.",
             viewWork: "Ver mi trabajo",
@@ -140,11 +142,13 @@ i18n.use(initReactI18next).init({
           },
           education: {
             title: "Educación",
+            faculty: "Facultad de Ciencias de la Computación e Información",
             degree:
               "Licenciatura en Ciencias de la Computación e Informática (Programa Universitario)",
             relevantCourses:
               "Cursos Relevantes: Programación Web, Sistemas de Bases de Datos, Redes de Computadoras, Ingeniería de Software, Inteligencia Artificial, Aprendizaje Automático",
             note: "Se espera que complete mi título en febrero de 2025.",
+            languages: "Idiomas",
           },
           aboutMe: {
             title: "Sobre mí",

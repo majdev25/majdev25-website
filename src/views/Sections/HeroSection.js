@@ -9,7 +9,7 @@ import profileImg from "../../assets/profile-small.png";
 import { useTranslation } from "react-i18next";
 
 function HeroSection() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <section
@@ -25,6 +25,12 @@ function HeroSection() {
           className="w-full h-full object-cover rounded-full border-4 border-white shadow-lg shadow-[0_0_30px_coral]"
         />
       </div>
+
+      {i18n.language !== "es" && (
+        <div className="absolute top-[75px] right-[20px] p-2 px-4 bg-white/20 rounded-xl">
+          ¡Hablemos español! ☝️
+        </div>
+      )}
 
       <h1 className="text-sm font-regular mb-4 z-10">
         {t("homepage.hero.greeting")}
@@ -59,7 +65,7 @@ function HeroSection() {
         >
           <FaLinkedin className="text-coral hover:text-orangeRed text-2xl transition" />
         </a>
-        <a href="mailto:majandmaj@gmail.com">
+        <a href="mailto:maj.andrejc.devs@gmail.com">
           <FaEnvelope className="text-coral hover:text-orangeRed text-2xl transition" />
         </a>
       </div>
