@@ -27,7 +27,7 @@ function HeroSection() {
       </div>
 
       {i18n.language !== "es" && (
-        <div className="absolute top-[75px] right-[20px] p-2 px-4 bg-white/20 rounded-xl">
+        <div className="absolute top-[75px] right-[20px] p-2 px-4 bg-black/40 rounded-xl">
           ¡Hablemos español! ☝️
         </div>
       )}
