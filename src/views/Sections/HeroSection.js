@@ -4,6 +4,7 @@ import {
   FaEnvelope,
   FaCode,
   FaCodeBranch,
+  FaLocationArrow,
 } from "react-icons/fa";
 import profileImg from "../../assets/profile-small.png";
 import { useTranslation } from "react-i18next";
@@ -49,6 +50,19 @@ function HeroSection() {
       <p className="text-lg md:text-2xl mb-6 max-w-xl z-10 animate-slide-in opacity-0 [animation-delay:0.1s]">
         {t("homepage.hero.subtitle")}
       </p>
+      <div className="flex flex-wrap gap-2 items-center justify-center">
+        <span className="whitespace-nowrap">
+          {t("homepage.hero.location.l1")}
+        </span>
+
+        <span className="inline-flex items-center gap-2 bg-coral rounded-lg text-black py-[0.5px] px-[8px] whitespace-nowrap">
+          <FaLocationArrow /> {t("homepage.hero.location.l2")}
+        </span>
+
+        <span className="whitespace-nowrap">
+          {t("homepage.hero.location.l3")}
+        </span>
+      </div>
       <div className="flex gap-4 mt-6 animate-slide-in opacity-0 [animation-delay:0.5s] z-10 relative">
         <a
           href="https://github.com/majdev25"
