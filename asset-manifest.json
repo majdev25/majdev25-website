@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/majdev25-website/static/css/main.0d73d685.css",
-    "main.js": "/majdev25-website/static/js/main.8f2f2c55.js",
+    "main.css": "/majdev25-website/static/css/main.13800faa.css",
+    "main.js": "/majdev25-website/static/js/main.347e4d9f.js",
     "static/js/453.7cf3c761.chunk.js": "/majdev25-website/static/js/453.7cf3c761.chunk.js",
     "static/media/profile-small.png": "/majdev25-website/static/media/profile-small.3909d32c3f1734c3f3fb.png",
     "static/media/musical.png": "/majdev25-website/static/media/musical.d8e1693164285224db21.png",
     "static/media/UL_logo.svg": "/majdev25-website/static/media/UL_logo.b72286eb9d5b1fb7d5db7c73cf80e346.svg",
     "index.html": "/majdev25-website/index.html",
-    "main.0d73d685.css.map": "/majdev25-website/static/css/main.0d73d685.css.map",
-    "main.8f2f2c55.js.map": "/majdev25-website/static/js/main.8f2f2c55.js.map",
+    "main.13800faa.css.map": "/majdev25-website/static/css/main.13800faa.css.map",
+    "main.347e4d9f.js.map": "/majdev25-website/static/js/main.347e4d9f.js.map",
     "453.7cf3c761.chunk.js.map": "/majdev25-website/static/js/453.7cf3c761.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0d73d685.css",
-    "static/js/main.8f2f2c55.js"
+    "static/css/main.13800faa.css",
+    "static/js/main.347e4d9f.js"
   ]
 }
