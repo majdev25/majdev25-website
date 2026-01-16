@@ -110,6 +110,21 @@ function PortfolioSection() {
                 <span className="w-3 h-3 bg-white/30 rounded-full"></span>
               </div>
             </div>
+
+            {/* German */}
+            <div className="flex items-center justify-between">
+              <span className="font-semibold">
+                German{" "}
+                <span className="font-light text-sm">Basic (learning)</span>
+              </span>
+              <div className="flex space-x-1">
+                <span className="w-3 h-3 bg-white rounded-full"></span>
+                <span className="w-3 h-3 bg-white/30 rounded-full"></span>
+                <span className="w-3 h-3 bg-white/30 rounded-full"></span>
+                <span className="w-3 h-3 bg-white/30 rounded-full"></span>
+                <span className="w-3 h-3 bg-white/30 rounded-full"></span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

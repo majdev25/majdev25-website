@@ -67,6 +67,16 @@ export default function Navigator() {
         >
           ES
         </button>
+        <button
+          onClick={() => changeLanguage("de")}
+          className={`px-2 py-1 rounded transition ${
+            i18n.language === "de"
+              ? "bg-white/30 font-semibold"
+              : "hover:bg-white/20"
+          }`}
+        >
+          DE
+        </button>
       </div>
     </nav>
   );

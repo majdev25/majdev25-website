@@ -26,9 +26,9 @@ function HeroSection() {
         />
       </div>
 
-      {i18n.language !== "es" && (
+      {i18n.language == "en" && (
         <div className="absolute top-[75px] right-[20px] p-2 px-4 bg-black/40 rounded-xl">
-          ¡Hablemos español! ☝️
+          Choose your language ☝️
         </div>
       )}
 
@@ -42,7 +42,7 @@ function HeroSection() {
         <div className="absolute -top-10 -right-[15%] transform rotate-12">
           <FaCodeBranch className="text-orangeRed text-6xl opacity-0 drop-shadow-[0_0_15px_orangeRed] animate-slide-in [animation-delay:1s] hidden sm:block" />
         </div>
-        <div className="text-5xl md:text-6xl font-bold mb-4 z-10 animate-slide-in">
+        <div className="text-4xl md:text-6xl font-bold mb-4 z-10 animate-slide-in">
           {t("homepage.hero.title")}
         </div>
       </h1>

@@ -70,7 +70,7 @@ i18n.use(initReactI18next).init({
               "Bachelor of Computer and Information Science (University Programme)",
             relevantCourses:
               " Relevant Courses: Web Programming, Database Systems, Computer Networks, Software Engineering, Artificial Intelligence, Machine Learning",
-            note: "Expected to complete my degree in February 2025.",
+            note: "Expected to complete my degree in February 2026.",
             languages: "Languages",
           },
           aboutMe: {
@@ -147,13 +147,90 @@ i18n.use(initReactI18next).init({
               "Licenciatura en Ciencias de la Computación e Informática (Programa Universitario)",
             relevantCourses:
               "Cursos Relevantes: Programación Web, Sistemas de Bases de Datos, Redes de Computadoras, Ingeniería de Software, Inteligencia Artificial, Aprendizaje Automático",
-            note: "Se espera que complete mi título en febrero de 2025.",
+            note: "Se espera que complete mi título en febrero de 2026.",
             languages: "Idiomas",
           },
           aboutMe: {
             title: "Sobre mí",
             text: "Soy de Eslovenia y completé la Escuela Secundaria General con Enfoque Académico, donde cultivé una pasión duradera por las matemáticas. También asistí a la escuela de música, dominando el violín y el piano, posteriormente componiendo y produciendo mi propio musical, y eventualmente experimentando con la música electrónica por diversión creativa. Más allá de mis actividades artísticas, dedico tiempo al culturismo en el gimnasio, una disciplina que me ha inculcado resiliencia y perseverancia — virtudes que aplico tanto en mis proyectos creativos como en el desarrollo de software.",
             photoText: "Equipo del musical. (2019)",
+          },
+        },
+      },
+    },
+    de: {
+      translation: {
+        navigator: {
+          home: "Startseite",
+          portfolio: "Portfolio",
+          stack: "Tech-Stack",
+          experience: "Erfahrung",
+          education: "Ausbildung",
+          aboutMe: "Über mich",
+        },
+        homepage: {
+          hero: {
+            greeting: "Hi, ich bin Maj Andrejč.",
+            title: "Softwareentwickler",
+            subtitle:
+              "Ich entwerfe und entwickle komplexe Systeme, die sich für Nutzer mühelos anfühlen.",
+            viewWork: "Meine Arbeiten ansehen",
+          },
+          portfolio: {
+            title: "Portfolio",
+            featured: "HERVORGEHOBEN",
+            intranet: {
+              title: "Krankenhaus-Intranet",
+              short_desc:
+                "Ich entwickelte eine interne Webanwendung für über <strong>1.000 Nutzer</strong>, die Zusammenarbeit, Informationsaustausch und interne Bestellungen optimiert. Sie umfasst abteilungsspezifische Module sowie ein ISO-konformes Dokumentenmanagementsystem mit detaillierten Zugriffskontrollen zur Datensicherheit.",
+              desc: "Ich habe eine umfassende interne Webanwendung vollständig eigenständig entwickelt und betreut, die von über <strong>1.000 Nutzern</strong> verwendet wird. Sie ermöglicht eine intuitive Zusammenarbeit, einen einfachen Informationsaustausch sowie ein effizientes internes Bestellwesen. Das System ist komplex aufgebaut und besteht aus mehreren Modulen, die an die Arbeitsabläufe der einzelnen Krankenhausabteilungen angepasst sind. Dazu gehört ein <strong>Dokumentenmanagementsystem</strong> gemäß ISO-Qualitätsstandards mit detaillierten Zugriffskontrollen zur Gewährleistung von Datensicherheit und Compliance.",
+            },
+            orfa: {
+              title: "Webanwendung für Apotheken",
+              short_desc:
+                "Ich entwickelte und betreute eine Webanwendung für Apotheken in ganz Slowenien, die die Freigabe von Medikamentenbestellungen innerhalb und außerhalb von Krankenhausapotheken ermöglicht. Die Anwendung optimiert die Medikamentenlogistik, sorgt für eine logische Lagerung und verbessert den gesamten pharmazeutischen Workflow.",
+            },
+            homeflix: {
+              title: "Homeflix",
+              short_desc:
+                "Ein persönliches Projekt, bei dem ich eine Streaming-Webanwendung entwickelt habe. HomeFlix ist ein moderner, selbstgehosteter Streaming-Dienst ohne erforderliche Datenbankkonfiguration, mit KI-generierten Postern und einer schlanken, modernen Benutzeroberfläche.",
+            },
+          },
+          stack: {
+            title: "Tech-Stack",
+            par1: "Technologien und Tools, die ich im Laufe meiner Karriere und meines Studiums verwendet habe.",
+            note: "Hinweis: Ich habe nicht jede Programmiersprache aufgelistet, die ich beherrsche, da mir meine informatische Ausbildung ermöglicht, neue Sprachen und Technologien schnell zu verstehen und mich anzupassen.",
+            subtitle1: "Frontend",
+            subtitle2: "Backend",
+            subtitle3: "Tools & Sonstiges",
+          },
+          experience: {
+            title: "Berufserfahrung",
+            sbms: {
+              year: "2019–2026",
+              title: "Allgemeines Krankenhaus Murska Sobota",
+              text: "Ich habe eigenständig eine interne Webanwendung (Intranet) für über 1.000 Nutzer entwickelt und betreut, die eine nahtlose Zusammenarbeit, den Informationsaustausch und die Verwaltung interner Bestellungen ermöglicht. Zusätzlich entwickelte ich mehrere kleinere Anwendungen zur Unterstützung von Krankenhausprozessen, darunter ein Bestellsystem und eine COVID-19-Tracking-App. Außerdem war ich für die Serverwartung, Backups und die Datenbankverwaltung verantwortlich.",
+            },
+            pronet: {
+              year: "2023–2026",
+              title: "Pronet",
+              text: "Entwicklung einer modernen Webanwendung, die in ein älteres Apothekenverwaltungssystem integriert ist, um eine bessere Benutzeroberfläche für Anwender bereitzustellen. Zusammenarbeit in einem großen Team, wobei höchste Zuverlässigkeit erforderlich war, da das System für die korrekte Medikamentenverwaltung in Krankenhäusern in ganz Slowenien entscheidend ist.",
+            },
+          },
+          education: {
+            title: "Ausbildung",
+            faculty: "Fakultät für Computer- und Informationswissenschaften",
+            degree:
+              "Bachelor of Computer and Information Science (Universitätsstudium)",
+            relevantCourses:
+              " Relevante Kurse: Webprogrammierung, Datenbanksysteme, Rechnernetze, Software Engineering, Künstliche Intelligenz, Maschinelles Lernen",
+            note: "Voraussichtlicher Studienabschluss im Februar 2026.",
+            languages: "Sprachen",
+          },
+          aboutMe: {
+            title: "Über mich",
+            text: "Ich komme aus Slowenien und habe ein allgemeinbildendes Gymnasium mit akademischem Schwerpunkt abgeschlossen, wo ich eine lebenslange Leidenschaft für Mathematik entwickelte. Zusätzlich besuchte ich eine Musikschule, in der ich Violine und Klavier erlernte, später mein eigenes Musical komponierte und produzierte und mich schließlich aus experimenteller Neugier mit elektronischer Musik beschäftigte. Neben meinen künstlerischen Interessen widme ich mich intensiv dem Bodybuilding im Fitnessstudio – eine Disziplin, die mir Resilienz und Durchhaltevermögen vermittelt hat, Eigenschaften, die ich sowohl in kreative Projekte als auch in die Softwareentwicklung einbringe.",
+            photoText: "Team des Musicals. (2019)",
           },
         },
       },
