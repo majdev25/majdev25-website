@@ -71,8 +71,7 @@ i18n.use(initReactI18next).init({
           education: {
             title: "Education",
             faculty: "Faculty of Computer and Information Science",
-            degree:
-              "Bachelor of Computer and Information Science (University Programme)",
+            degree: "Bachelor of Computer and Information Science",
             relevantCourses:
               " Relevant Courses: Web Programming, Database Systems, Computer Networks, Software Engineering, Artificial Intelligence, Machine Learning",
             note: "Expected to complete my degree in February 2026.",
@@ -153,8 +152,7 @@ i18n.use(initReactI18next).init({
           education: {
             title: "Educación",
             faculty: "Facultad de Ciencias de la Computación e Información",
-            degree:
-              "Licenciatura en Ciencias de la Computación e Informática (Programa Universitario)",
+            degree: "Licenciatura en Ciencias de la Computación e Informática",
             relevantCourses:
               "Cursos Relevantes: Programación Web, Sistemas de Bases de Datos, Redes de Computadoras, Ingeniería de Software, Inteligencia Artificial, Aprendizaje Automático",
             note: "Se espera que complete mi título en febrero de 2026.",
@@ -235,8 +233,7 @@ i18n.use(initReactI18next).init({
           education: {
             title: "Ausbildung",
             faculty: "Fakultät für Computer- und Informationswissenschaften",
-            degree:
-              "Bachelor of Computer and Information Science (Universitätsstudium)",
+            degree: "Bachelor of Computer and Information Science",
             relevantCourses:
               " Relevante Kurse: Webprogrammierung, Datenbanksysteme, Rechnernetze, Software Engineering, Künstliche Intelligenz, Maschinelles Lernen",
             note: "Voraussichtlicher Studienabschluss im Februar 2026.",

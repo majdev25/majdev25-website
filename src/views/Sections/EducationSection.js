@@ -27,7 +27,7 @@ function PortfolioSection() {
               window.open(
                 "https://www.fri.uni-lj.si/sl",
                 "_blank",
-                "noopener,noreferrer"
+                "noopener,noreferrer",
               )
             }
             className="relative flex-1 min-w-[100px] md:max-w-[600px] bg-white/10 hover:bg-white/20 p-6 rounded-3xl border border-white/20 backdrop-blur-[100px] backdrop-blur-md rounded-2xl p-6 text-left flex-1 cursor-pointer transition"
@@ -46,8 +46,6 @@ function PortfolioSection() {
             <h2 className="text-xl mb-2 font-bold">
               {t("homepage.education.degree")}
             </h2>
-            <p className="text-i font-bold">{t("homepage.education.note")}</p>
-            <p className="text-i">{t("homepage.education.relevantCourses")}</p>
           </div>
           <div className="relative flex-1 min-w-[100px] md:max-w-[600px] bg-white/10 p-6 rounded-3xl border border-white/20 backdrop-blur-[100px] backdrop-blur-md text-left flex flex-col gap-4 cursor-default transition">
             <h3 className="text-xl font-bold mb-2">
