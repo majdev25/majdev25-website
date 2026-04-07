@@ -22,9 +22,7 @@ i18n.use(initReactI18next).init({
               "I design and build complex systems that feel effortless for users.",
             viewWork: "View My Work",
             location: {
-              l1: "Based in Slovenia · Relocating to",
-              l2: "Vienna",
-              l3: "in April 2026",
+              l1: "Based in Slovenia",
             },
           },
           portfolio: {
@@ -103,9 +101,7 @@ i18n.use(initReactI18next).init({
               "Creo y desarrollo sistemas complejos que funcionan de manera sencilla para el usuario.",
             viewWork: "Ver mi trabajo",
             location: {
-              l1: "Con base en Eslovenia · Traslado a",
-              l2: "Viena",
-              l3: "en abril de 2026",
+              l1: "Con base en Eslovenia",
             },
           },
           portfolio: {
@@ -184,9 +180,7 @@ i18n.use(initReactI18next).init({
               "Ich entwerfe und entwickle komplexe Systeme, die sich für Nutzer mühelos anfühlen.",
             viewWork: "Meine Arbeiten ansehen",
             location: {
-              l1: "Standort Slowenien · Umzug nach",
-              l2: "Wien",
-              l3: "ab April 2026",
+              l1: "Standort Slowenien",
             },
           },
           portfolio: {

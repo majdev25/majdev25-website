@@ -54,14 +54,6 @@ function HeroSection() {
         <span className="whitespace-nowrap">
           {t("homepage.hero.location.l1")}
         </span>
-
-        <span className="inline-flex items-center gap-2 bg-coral rounded-lg text-black py-[0.5px] px-[8px] whitespace-nowrap">
-          <FaLocationArrow /> {t("homepage.hero.location.l2")}
-        </span>
-
-        <span className="whitespace-nowrap">
-          {t("homepage.hero.location.l3")}
-        </span>
       </div>
       <div className="flex gap-4 mt-6 animate-slide-in opacity-0 [animation-delay:0.5s] z-10 relative">
         <a
